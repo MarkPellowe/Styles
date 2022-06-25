@@ -88,9 +88,9 @@ pio.templates["scientific"] = go.layout.Template(
             "gridcolor": "black",
             "zeroline": False,
         },
-        font={"family": "CMU Serif", "size": 12, "color": "black"},
-        width=500,
-        height=350,
+        font={"family": "CMU Serif", "size": 11, "color": "black"},
+        width=612.40416,  # Matches text width of latex document exactly.
+        height=459.30312,  # Sets it to a 4/3 aspect ratio.
         margin={
             "l": 5,
             "r": 5,
