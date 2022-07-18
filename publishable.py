@@ -70,7 +70,7 @@ pio.templates["scientific"] = go.layout.Template(
             "zeroline": False,
             "griddash": "dot",
             "gridwidth": 0.5,
-            "gridcolor": "black",
+            "gridcolor": "rgba(0,0,0,0.5)",
         },
         yaxis={
             "automargin": True,
@@ -85,7 +85,7 @@ pio.templates["scientific"] = go.layout.Template(
             "title": {"standoff": 10},
             "griddash": "dot",
             "gridwidth": 0.5,
-            "gridcolor": "black",
+            "gridcolor": "rgba(0,0,0,0.5)",
             "zeroline": False,
         },
         font={"family": "CMU Serif", "size": 11, "color": "black"},
@@ -99,5 +99,17 @@ pio.templates["scientific"] = go.layout.Template(
             "pad": 4,
         },
         # title={"pad": 10},
+        legend={
+            "orientation": "h",
+            "y": -0.3,
+            "x": 0.5,
+            "yanchor": "bottom",
+            "xanchor": "center",
+            "bordercolor": "black",
+            "borderwidth": 1.4,
+        },
     )
 )
+
+
+
