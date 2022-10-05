@@ -12,6 +12,18 @@ import plotly.io as pio
 
 pio.templates["scientific"] = go.layout.Template(
     layout=dict(
+        colorway=[
+            "rgb(0,119,187)",
+            "rgb(51,187,238)",
+            "rgb(0,153,136)",
+            "rgb(238,119,51)",
+            "rgb(204,51,17)",
+            "rgb(238,51,119)",
+            "rgb(187,187,187)",
+        ],
+        # line={"dash":["solid","dot","dash","longdash","dashdot"],},
+        # newshape_line_dash="dash",
+        # ["solid","dot","dash","longdash","dashdot"],
         scene={
             "xaxis": {
                 "backgroundcolor": "white",
@@ -110,6 +122,3 @@ pio.templates["scientific"] = go.layout.Template(
         },
     )
 )
-
-
-
